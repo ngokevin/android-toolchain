@@ -1,0 +1,21 @@
+{
+  "name": "android-toolchain",
+  "version": "0.0.1",
+  "description": "Android toolchain checked in.",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngokevin/android-toolchain.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngokevin/android-toolchain/issues"
+  },
+  "homepage": "https://github.com/ngokevin/android-toolchain#readme",
+  "dependencies": {
+    "rimraf": "^2.6.2",
+    "unzipper": "^0.9.2"
+  }
+}
