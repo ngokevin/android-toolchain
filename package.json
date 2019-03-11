@@ -1,9 +1,9 @@
 {
   "name": "android-toolchain",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Android toolchain checked in.",
   "scripts": {
-    "postinstall": "node postinstall.js && shx chmod bin/*"
+    "postinstall": "node postinstall.js && shx chmod 755 bin/*"
   },
   "repository": {
     "type": "git",
